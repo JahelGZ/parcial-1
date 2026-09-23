@@ -1,4 +1,4 @@
-package main.java.com.programacion;
+package com.programacion;
 
 public class LibroTextoUNIAC extends LibroTexto {
 
