@@ -9,12 +9,14 @@ public class Libro {
     private int numeroEjemplares;
     private int numeroEjemplaresPrestados;
 
-    // Constructor por defecto
+    // Constructor vacio
     public Libro() {
-        this.titulo = "";
-        this.autor = "";
-        this.numeroEjemplares = 0;
-        this.numeroEjemplaresPrestados = 0;
+
+    }
+
+    //Constructo con un solo parametro
+    public Libro(String titulo) {
+        this.titulo = titulo;
     }
 
     // Constructor con parámetros
@@ -82,6 +84,7 @@ public class Libro {
 
     public void imprimir() {
 
+        System.out.println("Información del libro");
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Numero de ejemplares: " + numeroEjemplares);
