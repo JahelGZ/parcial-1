@@ -142,3 +142,4 @@ public int getEjemplaresDisponibles() {
 ```
 
 Este método retorna la cantidad de ejemplares disponibles para préstamo, restando los ejemplares prestados al total de ejemplares.
+PRUEBA11 
